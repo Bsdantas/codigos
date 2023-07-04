@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Clínica Médica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    header {
+      background-image: url("logo.png");
+      background-size: cover;
+      height: 200px;
+    }
+  
+    #content {
+    overflow-y: scroll;
+    padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+  
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+      border-bottom: 2px solid #ccc; 
+    }
+
+    
+    tr:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav {
+      background-color: #d60000;
+      color: #ffffff;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #d60000;
+      color: #ffffff;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      height: 50px;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <header></header>
+
+  <nav>
+    <ul>
+      <li><a href="clinicaindex.html">Página Principal</a></li>
+      <li><a href="sobre.html">Sobre a Clínica</a></li>
+      <li><a href="horario.html">Horário de Atendimento</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <<div id="content">
+    <h1>Horário de Atendimento</h1>
+    <p>Nosso centro médico está aberto em diversos horários para atender às necessidades de nossos pacientes. Consulte a tabela abaixo para obter informações sobre os horários de atendimento para cada um de nossos serviços.</p>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Serviços</th>
+          <th>Segunda a Sexta</th>
+          <th>Sábados</th>
+          <th>Feriados</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Clínica Geral</td>
+          <td>08h - 19h</td>
+          <td>08h - 14h</td>
+          <td>08h - 14h</td>
+        </tr>
+        <tr>
+          <td>Psicologia</td>
+          <td>08h - 19h</td>
+          <td>08h - 14h</td>
+          <td>08h - 14h</td>
+        </tr>
+        <tr>
+          <td>Pediatria</td>
+          <td>08h - 19h</td>
+          <td>08h - 18h</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Oftalmologia</td>
+          <td>08h - 19h</td>
+          <td>08h - 18h</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+      
+
+  <footer>
+    <p>Entre em contato: telefone - (11) 9999-9999, e-mail - contato@umbrellamedical.com</p>
+    <p>By Bruno Dantas</p>
+  </footer>
+</body>
+
+</html>
