@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5F5;
+}
+ul { 
+    list-style: disc; 
+    padding-left: 5px; 
+}
+
+a { 
+    color: blue; 
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+
+
+.content {
+    clear: both;
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between
+}
+.main {
+    float: left;
+    width: 70%; 
+    flex: 0 0 70%;
+}
+
+.aside-content {
+    float: right;
+    width: 30%; 
+    flex: 0 0 30%;
+}
+
+.additional-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #000000; /* Adiciona uma borda à tabela */
+  }
+  
+  .additional-info th, .additional-info td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
+  
+  .additional-info th {
+    background-color: #f2f2f2;
+  }
+
+    
+  .additional-info td {
+    text-align: left;
+  }
+
+  .table-container {
+    float: right;
+    margin-left: 20px;
+}
+
+
+
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+.logo {
+    float: left;
+}
+
+.search-form {
+    float: right;
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 6px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav {
+    clear: both;
+}
